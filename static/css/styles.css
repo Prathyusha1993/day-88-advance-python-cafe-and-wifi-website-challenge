@@ -32,3 +32,17 @@ a {
 .nav-bar-class .navbar-brand{
  color: white !important;
 }
+
+.about-img{
+width:100%;
+height: auto;
+}
+.about-text{
+font-size: 16px;
+text-align: center;
+}
+
+.contact-img{
+width:100%;
+object-fit:cover;
+}
