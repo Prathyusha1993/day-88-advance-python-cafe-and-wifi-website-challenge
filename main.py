@@ -7,9 +7,9 @@ from sqlalchemy import Integer, String, Boolean
 import os
 from dotenv import load_dotenv
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, SelectField
+from wtforms import StringField, SubmitField
 from wtforms.fields.simple import BooleanField
-from wtforms.validators import DataRequired, URL, Optional, InputRequired
+from wtforms.validators import DataRequired, URL, InputRequired
 
 load_dotenv()
 
